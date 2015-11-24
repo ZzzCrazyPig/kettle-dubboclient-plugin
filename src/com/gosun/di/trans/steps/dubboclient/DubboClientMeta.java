@@ -71,7 +71,7 @@ public class DubboClientMeta extends BaseStepMeta implements StepMetaInterface {
 	
 	private static void loadDubboProviderJars() throws Exception {
 		// TODO 这里需要解决如何存放dubbo provider目录的问题,暂时写死
-		URL resUrl = DubboClientMeta.class.getClassLoader().getResource("./plugins/gosun-dubboclient-plugin/dubboProvider");
+		URL resUrl = DubboClientMeta.class.getClassLoader().getResource("./plugins/kettle-dubboclient-plugin/dubboProvider");
 		
 		String basePath = resUrl.getFile();
 		

@@ -7,7 +7,7 @@
   
   See common_build.xml for more details
 ============================================================================-->
-<project name="gosun-dubboclient-plugin" basedir="." default="default" xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="kettle-dubboclient-plugin" basedir="." default="default" xmlns:ivy="antlib:org.apache.ivy.ant">
 
 
   <description>
