@@ -10,14 +10,12 @@
   ${Kettle_APP_DIR}/plugins/gosun-dubboclient-plugin
 
 ## Dubbo Provider API的存放
-  对于Dubbo Provider提供的api jar文件及依赖,放到`gosun-dubboclient-plugin`目录下,结构为:
-${Dubbo_Provider_DIR_NAME}/provider.properties
-${Dubbo_Provider_DIR_NAME}/XXXService.jar(API jar)
-${Dubbo_Provider_DIR_NAME}/lib/....(依赖的第三方jar)
-1. 其中${Dubbo_Provider_DIR_NAME}为自定义的目录名
-2. provider.properties内容说明如下:
-
-`provider=xxx // 指定provider名称`
-
-`interfaces=com.xxx.XxxService1,com.xxx.XxxService2 // 指定provider提供的接口,多个接口以','隔开`
+  对于Dubbo Provider提供的api jar文件及依赖,放到`gosun-dubboclient-plugin`目录下,结构为:  
+${Dubbo_Provider_DIR_NAME}/provider.properties  
+${Dubbo_Provider_DIR_NAME}/XXXService.jar(API jar)  
+${Dubbo_Provider_DIR_NAME}/lib/....(依赖的第三方jar)  
+1. 其中${Dubbo_Provider_DIR_NAME}为自定义的目录名  
+2. provider.properties内容说明如下:  
+`provider=xxx // 指定provider名称`  
+`interfaces=com.xxx.XxxService1,com.xxx.XxxService2 // 指定provider提供的接口,多个接口以','隔开`  
 
