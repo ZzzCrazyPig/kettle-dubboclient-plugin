@@ -6,11 +6,11 @@
 ## 编译使用
 * 在项目根目录执行`ant resolve`命令下载插件依赖jar
 * 在项目根目录执行`ant dist`命令构建插件发行包
-* 在`/dist`目录下找到对应的gosun-dubboclient-plugin-5.3.0.4-364.zip包,将该zip包解压到Kettle发行包`/plugins`下:
-  ${Kettle_APP_DIR}/plugins/gosun-dubboclient-plugin
+* 在`/dist`目录下找到对应的kettle-dubboclient-plugin-5.3.0.4-364.zip包,将该zip包解压到Kettle发行包`/plugins`下:
+  ${Kettle_APP_DIR}/plugins/kettle-dubboclient-plugin
 
 ## Dubbo Provider API的存放
-  对于Dubbo Provider提供的api jar文件及依赖,放到`gosun-dubboclient-plugin`目录下,结构为:  
+  对于Dubbo Provider提供的api jar文件及依赖,放到`kettle-dubboclient-plugin`目录下,结构为:  
 ${Dubbo_Provider_DIR_NAME}/provider.properties  
 ${Dubbo_Provider_DIR_NAME}/XXXService.jar(API jar)  
 ${Dubbo_Provider_DIR_NAME}/lib/....(依赖的第三方jar)  
